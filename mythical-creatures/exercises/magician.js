@@ -35,51 +35,7 @@ class Magician {
 
 module.exports = Magician;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// First try:
 // class Magician {
 //   constructor(magician) {
 //     this.name = `The Great ${magician.name}`;
