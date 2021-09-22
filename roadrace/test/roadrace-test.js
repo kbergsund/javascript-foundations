@@ -59,7 +59,6 @@ describe("Roadrace", function() {
     assert.equal(race.participants.length, 2);
 
     race.completeRace();
-
     assert.equal(mike.completedRaces.includes('Rock N Roll Half Marathon'), true);
     assert.equal(pam.completedRaces.includes('Rock N Roll Half Marathon'), true);
     assert.equal(lazyHeather.completedRaces.includes('Rock N Roll Half Marathon'), false);
@@ -78,7 +77,7 @@ describe("Roadrace", function() {
     assert.equal(race.participants.length, 2);
 
     race.completeRace();
-
+    
     assert.equal(mike.milesRun, 13.1);
     assert.equal(pam.milesRun, 13.1);
     assert.equal(lazyHeather.milesRun, 0);
